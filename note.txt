@@ -1,0 +1,29 @@
+Pertemuan 1
+
+1. Membuat variabel (variabel.html)
+    - Contoh Variabel
+        -* nama
+        -* umur
+        -* alamat
+
+    - Penggabungan Variabel
+    - Pengenalan Tipe Data
+        -* number (menyimpan angka)
+        -* string (menyimpan text)
+        -* boolean (hanya mempunyai 2 nilai true | false)
+        -* array (kumpulan nilai dalam satu variabel)
+        -* object (kumpulan properti dan nilainya)
+        -* undefined (bahwa variabel belum dikasih nilai)
+
+2. Operator Aritmatika
+    - Penjumlahan (+)
+    - Pengurangan (-)
+    - Perkalian (*)
+    - Pembagian (/)
+    - Sisa Bagi Modulus (%)
+        -* Menampilakan yg dijumlah di html, dan hasil menggunakan JS
+
+3. Perbandingan
+    - Membandingkan string (hujan)
+    - Membandingkan angka
+        -* Menampilkan nilai rata2 dan hasilnya dijumlahkan oleh JS
