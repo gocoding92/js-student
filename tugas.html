@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>TUGAS</title>
+  </head>
+  <body>
+    <script>
+      // 1. Tipe data Array
+      let hewan = ["Kucing", "anjing", "burung", "kuda"];
+      console.log(hewan[1]);
+      let nama_pemainbola = [
+        "L.Messi",
+        "Mbappe",
+        "C.Ronaldo",
+        "Neymar",
+        "F.Dejong",
+      ];
+      console.log(nama_pemainbola[4]);
+
+      // 2. Tipe data Object
+      let sekolah = {
+        nama_sekolah1: "SMP 1 Bogor",
+        nama_sekolah2: "SMP 2 Depok",
+        nama_sekolah3: "SMP 1 Bekasi",
+      };
+      console.log(sekolah.nama_sekolah1);
+
+      let namaDaerah = [
+        {
+          daerah1: "Depok",
+          daerah2: "Bekasi",
+          daerah3: "Bogor",
+          kecamatan: {
+            depok: "Bojongsari",
+            bekasi: "Perwira",
+            bogor: "Kayumanis",
+          },
+        },
+        {
+          daerah1: "Jakarta",
+          daerah2: "Banten",
+          daerah3: "Tanggerang",
+          kecamatan: {
+            jakarta: "Senen",
+            banten: "Cikande",
+            tanggerang: "Ciledug ",
+          },
+        },
+      ];
+      console.log(namaDaerah);
+      console.log(namaDaerah[1]);
+      // 3. For Loop
+
+      for (let index = 1; index < 11; index++) {
+        console.log(index);
+      }
+
+      let kota = [
+        {
+          daerah1: "Depok",
+          daerah2: "Bekasi",
+          daerah3: "Bogor",
+          kecamatan: {
+            depok: "Bojongsari",
+            bekasi: "Perwira",
+            bogor: "Kayumanis",
+          },
+        },
+        {
+          daerah1: "jakarta",
+          daerah2: "banten",
+          daerah3: "tanggerang",
+          kecamatan: {
+            jakarta: "senen",
+            banten: "cikande",
+            tanggerang: "Ciledug ",
+          },
+        },
+      ];
+
+      console.log(kota.length);
+
+      for (let index = 0; index < kota.length; index++) {
+        console.log(kota[index].daerah1);
+      }
+    </script>
+  </body>
+</html>
